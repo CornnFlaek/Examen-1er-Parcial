@@ -31,11 +31,11 @@ namespace Restaurante1
             }
         }
 
-        public List<Ingredientes> Ingredientes { get; set; }
+        public List<Ingrediente> Ingredientes { get; set; }
 
         public Platillo()
         {
-            Ingredientes = new List<Ingredientes>();
+            Ingredientes = new List<Ingrediente>();
         }
     }
 }
